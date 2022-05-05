@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+  <link rel="icon" href="./media/devchallenges.png" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Edie Co.</title>
+
+</head>
+
+<body class="flex fc aic m0" id="body">
+  <header class="flex fr aic w100 jcsb">
+    <div class="logo">Edie</div>
+    <nav id="nav">
+      <button class="burger-button" id="burger-button" onclick="toggleNavigation()">
+        <div class="burger-button-bar"></div>
+        <div class="burger-button-bar"></div>
+        <div class="burger-button-bar"></div>
+      </button>
+      <ul id="nav-links">
+        <li class="nav-item"><a href='index.html'>Home</a></li>
+        <li class="nav-item"><a href='index.html'>Services</a></li>
+        <li class="nav-item"><a href='index.html'>Our Works</a></li>
+        <li class="nav-item"><a href='index.html'>Clients</a></li>
+        <li class="nav-item"><a href='index.html'>Contact</a></li>
+      </ul>
+      <div class="backdrop"></div>
+    </nav>
+  </header>
+  <main class="flex fc aic m0">
+    <section id="hero" class="flex fc">
+      <div class="hero-top">
+        <p class="tiny blue bold mtlg mb0 mllg">Unhappy with your website?</p>
+        <h1 class="mt0 mbmd mllg">We create beautiful<br> and fast web services</h1>
+      </div>
+      <div class="ofcover" id='heroimg'>
+        <img class="rounded w100" src="./media/heroImage.jpg" />
+      </div>
+      <div class="hero-bottom mt0 mrmd mblg mllg">
+        <h1 class="mt0">Story, emotion<br> and purpose</h1>
+        <p>We help transform your ideas into real world applications that will outperform your toughest competition and
+          will help you achieve your strategic goals in style.</p>
+        <form class="email-form mtmd" id="emailgray">
+          <p class="tinier gray">Want us to contact you?</p>
+          <div class="email-box">
+            <input type="text" class="rounded" name="email" id="email" placeholder="Email" />
+            <input type="submit" class="rounded cursor" value="Join" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <section id="services" class="mtlg mllg">
+      <div class="section-header mbmd">
+        <h1 class="mb0">We offer high<br> demand services</h1>
+      </div>
+      <div id="services-container">
+        <div class="services-item roundedmore grow">
+          <div class="services-icon rounded bg-blue">
+            <span class="material-icons">edit</span>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+            turpis</p>
+          <button class="getstarted cursor rounded" type="button">Get started</button>
+        </div>
+        <div class="services-item roundedmore grow">
+          <div class="services-icon rounded bg-green">
+            <span class="material-icons">code</span>
+          </div>
+          <h3>Front End</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+            turpis</p>
+          <button class="getstarted cursor rounded" type="button">Get started</button>
+        </div>
+        <div class="services-item roundedmore grow">
+          <div class="services-icon rounded bg-red">
+            <span class="material-icons">list</span>
+          </div>
+          <h3>Back End</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+            turpis</p>
+          <button class="getstarted cursor rounded" type="button">Get started</button>
+        </div>
+      </div>
+    </section>
+    <section id="design" class="flex fc w100 mbmd">
+      <div class="section-header mbmd">
+        <h2>Good design means good business</h2>
+      </div>
+      <div id="design-container" class="jic jcsa">
+        <div class="design-img w100 ofcover mw500">
+          <img class="roundedmore w100 mw500" src="./media/smarthome.jpg" />
+          <p class="tiny gray">Full stack application</p>
+          <h4>Smart home dashboard</h4>
+        </div>
+        <div class="design-img w100 ofcover mw500">
+          <img class="roundedmore w100 mw500" src="./media/onboard.png" />
+          <p class="tiny gray">UI/UX Design</p>
+          <h4>Onboard application</h4>
+        </div>
+        <div class="design-img w100 ofcover mw500">
+          <img class="roundedmore w100 mw500" src="./media/booking.png" />
+          <p class="tiny gray">Mobile application</p>
+          <h4>Booking system</h4>
+        </div>
+        <div class="design-img w100 ofcover mw500">
+          <img class="roundedmore w100 mw500" src="./media/juice-product.png" />
+          <p class="tiny gray">Front end application</p>
+          <h4>Juice product homepage</h4>
+        </div>
+      </div>
+      <div class="aright blue">
+        <p class="mt0 cursor">see more →</p>
+      </div>
+    </section>
+    <section id="team">
+      <div id="team-left">
+        <p class="tiny orange bold">Meet the team</p>
+        <h2 class="mt0">We are a chill and laidback team</h2>
+        <p class="tiny">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div id="team-right">
+        <div></div>
+        <div class="ofcover">
+          <img class="w100 roundedmore" src="./media/person1.png" />
+        </div>
+        <div class="ofcover">
+          <img class="w100 roundedmore" src="./media/person3.png" />
+        </div>
+        <div class="ofcover">
+          <img class="w100 roundedmore" src="./media/person2.png" />
+        </div>
+      </div>
+    </section>
+    <section id="quote" class="flex fc mtlg mblg">
+      <h2>"Fast and outstanding results. Edie understands their customer's needs. They have a young and talented team."
+      </h2>
+      <div id="quote-bottom" class="flex fr">
+        <img class="roundedmore" src="./media/person4.png">
+        <div id="quote-name" class="mlmd">
+          <h3 class="mtsm mb0">Carlos Tran</h3>
+          <p class="small gray mt0">The Decorated Gatsby</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="flex fc aic m0 ptopmd mtlg">
+    <div class="flex fc w100" id="footer-content">
+      <ul id="nav-links-footer">
+        <li class="nav-item-footer"><a href='index.html'>Home</a></li>
+        <li class="nav-item-footer"><a href='index.html'>Services</a></li>
+        <li class="nav-item-footer"><a href='index.html'>Our Works</a></li>
+        <li class="nav-item-footer"><a href='index.html'>Clients</a></li>
+        <li class="nav-item-footer"><a href='index.html'>Contact</a></li>
+      </ul>
+      <div class="socials-container flex fc mbmd">
+        <p class="logo mbsm">Edie</p>
+        <div class="socials">
+          <img src="./media/instagram.svg">
+          <img src="./media/linkedin.svg">
+          <img src="./media/twitter.svg">
+        </div>
+      </div>
+      <form class="email-form mblg">
+        <p class="tinier" id="footer-contact">Want us to contact you?</p>
+        <div class="email-box">
+          <input type="text" class="rounded" name="email" id="email" placeholder="Email" />
+          <input type="submit" class="rounded cursor" value="Join" />
+        </div>
+      </form>
+    </div>
+    <p id="createdby" class="mtlg">created by <span>@yuandere</span> - devchallenges.io</p>
+  </footer>
+  <script>
+    const toggle = (elementid) => {
+      const element = document.getElementById(elementid);
+      element.classList.toggle('--open');
+    }
+    const toggleNavigation = () => {
+      toggle('nav');
+      toggle('burger-button');
+      toggle('body');
+    }
+  </script>
+</body>
+
+</html>
