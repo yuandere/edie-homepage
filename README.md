@@ -30,7 +30,7 @@
 | --- | --- |
 | ![screenshot1](./media/screenshottablet.png) | ![screenshot2](./media/screenshotmobile.png) |
 
-This was my first project experimenting with my own CSS utility classes and creating a repeatable workflow. Unfortunately I realized too late how inconsistent some of my CSS class usage was considering the changes needed at different viewport sizes. As a result I ended up hard coding a good amount of the styles like in my previous projects, but it has been a learning experience for sure.
+A responsive one-page project utilizing CSS utility classes.
 
 ### Built With
 
